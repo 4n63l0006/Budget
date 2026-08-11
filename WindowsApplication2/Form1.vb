@@ -1,0 +1,55 @@
+﻿
+Public Class Form1
+
+    Private Sub txtStudentName_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+    End Sub
+
+    Private Sub txtFoodExpenses_TextChanged_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtFoodExpenses.TextChanged
+
+    End Sub
+
+    Private Sub txtTotalExpenses_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtTotalExpenses.TextChanged
+        txtTotalExpenses.Enabled = True
+        txtTotalExpenses.ReadOnly = True
+    End Sub
+
+    Private Sub txtRemainingBudget_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtRemainingBudget.TextChanged
+        txtRemainingBudget.Enabled = True
+        txtRemainingBudget.ReadOnly = True
+    End Sub
+
+    Private Sub btnCalculate_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCalculate.Click
+        txtTotalExpenses.Text = Val(txtFoodExpenses.Text) + Val(txtTransfortExpenses.Text) + Val(txtUtilityExpenses.Text) + Val(txtSchoolExpenses.Text) + Val(txtOtherExpenses.Text)
+
+        txtRemainingBudget.Text = (Val(txtMonthlyBudget.Text) - Val(txtTotalExpenses.Text)).ToString()
+
+
+
+        If Val(txtMonthlyBudget.Text) < Val(txtTotalExpenses.Text) Then
+            MsgBox(txtStudentName.Text & "!" & vbCrLf & "Your expenses exceed your Monthly Budget.", vbExclamation, "Budget Warning")
+        ElseIf Val(txtMonthlyBudget.Text) > Val(txtTotalExpenses.Text) Then
+            lblStudentName.Text = (txtStudentName.Text & " " & "is still within the budget.")
+        End If
+    End Sub
+
+    Private Sub txtStudentName_TextChanged_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtStudentName.TextChanged
+
+    End Sub
+
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub btnClear_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnClear.Click
+        txtStudentName.Clear()
+        txtMonthlyBudget.Clear()
+        txtFoodExpenses.Clear()
+        txtTransfortExpenses.Clear()
+        txtUtilityExpenses.Clear()
+        txtSchoolExpenses.Clear()
+        txtOtherExpenses.Clear()
+        txtTotalExpenses.Clear()
+        txtRemainingBudget.Clear()
+    End Sub
+End Class

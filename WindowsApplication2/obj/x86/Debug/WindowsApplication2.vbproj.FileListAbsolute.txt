@@ -1,0 +1,9 @@
+C:\Users\Admin\OneDrive\Desktop\File of Visual Studio 2010\Budget\WindowsApplication2\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\Admin\OneDrive\Desktop\File of Visual Studio 2010\Budget\WindowsApplication2\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Admin\OneDrive\Desktop\File of Visual Studio 2010\Budget\WindowsApplication2\obj\x86\Debug\WindowsApplication2.vbproj.GenerateResource.Cache
+C:\Users\Admin\OneDrive\Desktop\File of Visual Studio 2010\Budget\WindowsApplication2\bin\Debug\WindowsApplication2.exe
+C:\Users\Admin\OneDrive\Desktop\File of Visual Studio 2010\Budget\WindowsApplication2\bin\Debug\WindowsApplication2.pdb
+C:\Users\Admin\OneDrive\Desktop\File of Visual Studio 2010\Budget\WindowsApplication2\bin\Debug\WindowsApplication2.xml
+C:\Users\Admin\OneDrive\Desktop\File of Visual Studio 2010\Budget\WindowsApplication2\obj\x86\Debug\WindowsApplication2.exe
+C:\Users\Admin\OneDrive\Desktop\File of Visual Studio 2010\Budget\WindowsApplication2\obj\x86\Debug\WindowsApplication2.xml
+C:\Users\Admin\OneDrive\Desktop\File of Visual Studio 2010\Budget\WindowsApplication2\obj\x86\Debug\WindowsApplication2.pdb
